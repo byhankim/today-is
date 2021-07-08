@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".FirstSettingsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/first_settings_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="맞춤 관심도 설정"/>
+
+
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/btn_settings_layout"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                    <ImageButton
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/btn_done"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_done"
+                        android:background="@android:color/transparent"
+                        android:tint="@color/cardview_dark_background"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:id="@+id/nsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/itm1"
+                android:text="미세먼지"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:clickable="false"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/itm2"
+                android:text="초미세먼지"
+                android:checked="true"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/itm3"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:text="아황산가스" />
+
+            <CheckBox
+                android:id="@+id/itm4"
+                android:text="오존"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/itm5"
+                android:text="이산화질소"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/itm6"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:text="체감온도" />
+
+            <CheckBox
+                android:id="@+id/itm7"
+                android:text="자외선"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/itm8"
+                android:text="불쾌지수"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/itm9"
+                android:text="세차지수"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/itm10"
+                android:text="빨래지수"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+            </CheckBox>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

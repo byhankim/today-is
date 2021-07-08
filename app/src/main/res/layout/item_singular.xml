@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="90dp"
+    android:layout_height="wrap_content" android:layout_marginBottom="10dp"
+    android:id="@+id/gal_item1"
+    android:layout_marginStart="15dp"
+    android:background="@android:color/transparent"
+    android:layout_marginEnd="15dp">
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="미세먼지"
+        android:textColor="@color/toolbarIconColor"/>
+    <ImageView
+        android:id="@+id/iv_tiny_grade"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/tv_tag"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_mood_bad"
+        android:tint="@color/toolbarIconColor"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_tiny_status"
+        android:layout_below="@id/iv_tiny_grade"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/toolbarIconColor"
+        android:text="나쁨"/>
+
+</RelativeLayout>

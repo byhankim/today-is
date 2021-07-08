@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f3000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="indicatorSideItemColor">#3b3734</color>
+    <color name="toolbarIconColor">#EDEDED</color>
+    <color name="toolbarTimeText">#BEBEBE</color>
+    <color name="badGradDark">#de6217</color>
+    <color name="badGradLight">#F4C82E</color>
+    <color name="badNotiBarColor">#be4f0d</color>
+    <color name="badIndicatorItemColor">#e37209</color>
+    <color name="mediocreNotiBarColor">#012F06</color>
+    <color name="mediocreIndicator">#1A5B05</color>
+    <color name="mediocreGradLight">#528417</color>
+    <color name="goodNotiBarColor">#012181</color>
+    <color name="goodIndicator">#0e2379</color>
+    <color name="goodGradLight">#528417</color>
+    <color name="veryBadIndicator">#920707</color>
+    <color name="veryBadNotiBarColor">#560707</color>
+    <color name="veryBadGradLight">#E9491B</color>
+    <color name="fatalIndicator">#1a0473</color>
+    <color name="switchPositiveColor">#C1525D</color>
+    <color name="switchNegativecolor">#495CD5</color>
+    <color name="alarmSwitchOnColor">#d77709</color>
+    <color name="alarmSwitchOffColor">#45a0c1</color>
+
+</resources>

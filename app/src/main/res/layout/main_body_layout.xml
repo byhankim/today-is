@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipe_refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/indicator_inner">
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초미세먼지"
+            android:textColor="@color/toolbarIconColor"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/iv_tiny_grade"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mood_bad"
+            android:tint="@color/toolbarIconColor"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv_tiny_status"
+            android:layout_below="@id/iv_tiny_grade"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/toolbarIconColor"
+            android:text="매우나쁨"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">오늘은</string>
+    <!--dummy strings -->
+    <string name="location_dummy">서울시 관악구 낙성대동123</string>
+    <string name="settings_m1">공기오염지수란?</string>
+    <string name="settings_m2">생활지수란?</string>
+    <string name="settings_m3">미세먼지 기준</string>
+    <string name="settings_alarm">알림서비스</string>
+    <string name="settings_pref">환경설정</string>
+    <string name="preference">환경설정</string>
+    <string name="app_key">sk app key_tmap & weather planet enabled</string>
+    <string name="app_key1">sk app key_tmap & weather planet enabled</string>
+    <string name="app_key2">sk app key_tmap & weather planet enabled</string>
+    <string name="app_key_airkorea">air korea app key(대기환경오염지수 및 측정소조회)</string>
+    <string name="google_maps_key">gogole maps key</string>
+
+</resources>
